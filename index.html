@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body style="background-color:rgb(179, 179, 179)">
+    <section>
+        <div class="ab">
+<img src="./arrow-fill-triangle-up-512.png" height="50px" width="50px"><h2 style="margin-left: 70px;margin-top: -40px;">Home</h2>
+
+<div class="dropdown show" style="float:right;margin-top:-50px;margin-right:300px;">
+    <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-radius:12px;background-color: #24515e;padding-left:25px;padding-right:25px;border-color: white ;color: whitesmoke;border-radius: 20px;">
+      Register
+    </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item" href="#">As Hotel</a>
+      <a class="dropdown-item" href="#">As customer</a>
+        </div>
+  </div>
+  <div >
+    
+      <button type="button" class="btn" data-toggle="modal" data-target="#myModal1" style="float:right;margin-top:-50px;margin-right:170px;border-radius:12px;background-color: #24515e;padding-left:25px;padding-right:25px;border-color: white;color: whitesmoke;border-radius: 20px; ">Login </button>
+      <!-- Modal -->
+      <div id="myModal1" class="modal fade" role="dialog">
+        <div class="modal-dialog ">
+      
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-body">
+                  <div class="form">
+                    <div class="head" class="signup">
+                      <div class="login-tab" onclick="swap(this)" data-tab="login" style="float: left;">
+                      Hotel
+                    </div>
+                    <div class="signup-tab" onclick="swap(this)" data-tab="signup" style="float: right;">
+                        customer
+                      </div>
+                         <h1 style="font-size: 49px;">Login</h1>
+                        <form >
+                          <center>
+                          <input type="text" placeholder="Email" style="border-color:black;padding: 0px 50px 0px 50px;"><br>
+                          <input type="password" placeholder="password" style="border-color:black;margin-top:5px;padding: 0px 50px 0px 50px;">
+                          <p style="font-size:15px;"><a>forget password?</a></p>
+                        </center>
+                        <button  class="btn" style="border-radius:20px;border-color: black;padding:5px 20px 5px 20px; "><a href="./dashboard.html">login</a></button>
+                        <footer style="margin-top:20px;">Not yet Register,Register Now(hotel/customer)</footer>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+              </div>
+      
+        </div>
+      </div>
+
+  </div>
+        </div>
+        <div>
+        </div>
+    </section>
+    <section>
+      <h3 style="margin-left:20px;"> DUMMY TEXT</h3>
+      <h5>Filter &nbsp <select disabled style="padding-left:65px;padding-right:65px;padding-top:20px;padding-bottom:20px">
+          <option>Filter1</option>
+        </select>&nbsp
+      
+      <select disabled style="padding-left:65px;padding-right:65px;padding-top:20px;padding-bottom:20px">
+          <option>Filter1</option>
+        </select><div style="margin-top:-65px;"><input type="text" style="width:125px;height:50px;margin-left:1139px;"><button style="float:right;background-color:#24515e;color:white;height: 50px;width: 125px;padding-top:2px;margin-right:130px">Search</button></div></h5>
+        
+    </section>
+    <section style="margin-left:25px;margin-top:25px">
+            <div class="row" style="margin-left:15px;margin-top:25px">
+                    <div class="col-sm-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">lorem ipsum</h5>
+                          <p class="card-text"><p>Delhi,mumbai</p>
+                                                 <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+
+                          <div style="background-color: #24515e;color:white; "><a href="#" style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right; color:white" data-toggle="modal" data-target="#myModal2">vew detail></a></div>
+                    <!-- Modal -->
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Your text hereddddddddddd.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">lorem ipsum</h5>
+                          <p class="card-text"><p>Delhi,mumbai</p>
+                          <p>veneuas:dd/mm/yy</p>
+                          <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                          <h5>dolor sit amet,c</h5>
+                          <table>
+                              <tr>
+                                <td>sunde omm</td>
+                                <td style="padding-left:5px">amet</td>
+                                <td style="padding-left:5px">ipsum</td>
+                                <td style="padding-left:5px">date</td>
+                              </tr>
+                              <tr>
+                                  <td>immediaty</td>
+                                  <td>2dollar</td>
+                                  <td style="padding-left:6px"  >sit</td>
+                                  <td>DD/MM/YYYY</td>
+                                </tr>
+                            </table>
+  </p>
+                          <div style="background-color: #24515e;color:white; "><a href="#"style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color:white" data-toggle="modal" data-target="#myModal2">vew detail></a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">lorem ipsum</h5>
+                                <p class="card-text"><p>Delhi,mumbai</p>
+                                <p>veneuas:dd/mm/yy</p>
+                                <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                                <h5>dolor sit amet,c</h5>
+                                <table>
+                                    <tr>
+                                      <td>sunde omm</td>
+                                      <td style="padding-left:5px">amet</td>
+                                      <td style="padding-left:5px">ipsum</td>
+                                      <td style="padding-left:5px">date</td>
+                                    </tr>
+                                    <tr>
+                                        <td>immediaty</td>
+                                        <td>2dollar</td>
+                                        <td style="padding-left:6px"  >sit</td>
+                                        <td>DD/MM/YYYY</td>
+                                      </tr>
+                                  </table>
+        </p>
+                                <div style="background-color: #24515e;color:white; "><a href="#" style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color:white" data-toggle="modal" data-target="#myModal2">vew detail></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="row" style="margin-left:5px;margin-top:15px;">
+                        <div class="col-sm-4">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">lorem ipsum</h5>
+                              <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                              <div style="background-color: #24515e; "><a href="#"style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color:white" data-toggle="modal" data-target="#myModal2">vew detail></a></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">lorem ipsum</h5>
+                              <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                              <div style="background-color: #24515e; "><a href="#" style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color:white" data-toggle="modal" data-target="#myModal2">vew detail></a></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                                <div class="card">
+                                  <div class="card-body">
+                                    <h5 class="card-title">lorem ipsum</h5>
+                                    <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                                    <div style="background-color: #24515e; "><a href="#" style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color:white" data-toggle="modal" data-target="#myModal2">vew detail></a></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="row" style="margin-left:5px;margin-top:15px;">
+                            <div class="col-sm-4">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">lorem ipsum</h5>
+                                  <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                                  <div style="background-color: #24515e; "><a href="#"style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color:white" data-toggle="modal" data-target="#myModal2">vew detail></a></div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-4">
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">lorem ipsum</h5>
+                                  <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                                  <div style="background-color: #24515e;color:white; "><a href="#" style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color: white">vew detail></a></div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-4">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">lorem ipsum</h5>
+                                        <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                                        <div style="background-color: #24515e;"><a href="#" style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color: white" data-toggle="modal" data-target="#myModal2">vew detail></a></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div><span id="more">
+                          <div class="row" style="margin-left:5px;margin-top:15px;">
+                                <div class="col-sm-4">
+                                  <div class="card">
+                                    <div class="card-body">
+                                      <h5 class="card-title">lorem ipsum</h5>
+                                      <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                                      <div style="background-color: #24515e;"><a href="#"style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color: white;" data-toggle="modal" data-target="#myModal2">vew detail></a></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4">
+                                  <div class="card">
+                                    <div class="card-body">
+                                      <h5 class="card-title">lorem ipsum</h5>
+                                      <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                                      <div style="background-color: #24515e;color:white; "><a href="#"style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color: white" data-toggle="modal" data-target="#myModal2">vew detail></a></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-4">
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title">lorem ipsum</h5>
+                                            <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                                            <div style="background-color: #24515e;color:white; "><a href="#" style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color: white" data-toggle="modal" data-target="#myModal2">vew detail></a></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                              </div><span id="dots">..</span>
+                              <div class="row" style="margin-left:5px;margin-top:15px;">
+                                  <div class="col-sm-4">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title">lorem ipsum</h5>
+                                        <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                                        <div style="background-color: #24515e; "><a href="#"style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color: white" data-toggle="modal" data-target="#myModal2">vew detail></a></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                    <div class="card">
+                                      <div class="card-body">
+                                        <h5 class="card-title"></h5>
+                                        <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                                        <div style="background-color: #24515e;color:white; "><a href="#" style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color:white">vew detail></a></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-4">
+                                          <div class="card">
+                                            <div class="card-body">
+                                              <h5 class="card-title">lorem ipsum</h5>
+                                              <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                                              <div style="background-color: #24515e;"><a href="#" style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color:white;" data-toggle="modal" data-target="#myModal2">vew detail></a></div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="row" style="margin-left:5px;margin-top:15px;">
+                                      <div class="col-sm-4">
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title">lorem ipsum</h5>
+                                            <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+</p>
+                                            <div style="background-color: #24515e;"><a href="#"style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color:white;" data-toggle="modal" data-target="#myModal2">Vew detail></a></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-sm-4">
+                                        <div class="card">
+                                          <div class="card-body">
+                                            <h5 class="card-title"></h5>
+                                            <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                                            <div style="background-color: #24515e;color:white; "><a href="#" style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color:white;" data-toggle="modal" data-target="#myModal2">Vew detail></a></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-sm-4">
+                                              <div class="card">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">lorem ipsum</h5>
+                                                  <p class="card-text"><p>Delhi,mumbai</p>
+                        <p>veneuas:dd/mm/yy</p>
+                        <img src="./lake.jpg" height="70px" width="70px" style="float:right;margin-top:-90px">
+                        <h5>dolor sit amet,c</h5>
+                        <table>
+                            <tr>
+                              <td>sunde omm</td>
+                              <td style="padding-left:5px">amet</td>
+                              <td style="padding-left:5px">ipsum</td>
+                              <td style="padding-left:5px">date</td>
+                            </tr>
+                            <tr>
+                                <td>immediaty</td>
+                                <td>2dollar</td>
+                                <td style="padding-left:6px"  >sit</td>
+                                <td>DD/MM/YYYY</td>
+                              </tr>
+                          </table>
+</p>
+                                                  <div style="background-color: #24515e;color:white; "><a href="#" style="color:white;">ipsum</a>&nbsp <a href="#" style="float: right;color:white;" data-toggle="modal" data-target="#myModal2" >vew detail></a></div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div> </span>
+                                    <center><button onclick="myFunction()" id="myBtn" class="btn " style="border-radius:12px;background-color: #24515e;padding:20px;color:whitesmoke ">show more</button></center> 
+                      </section>
+      </body>
+      <script>
+      function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "show more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "show less"; 
+    moreText.style.display = "inline";
+  }
+}
+function swap(referTo){
+  if(referTo.getElementById("data-tab")=="login"){
+  document.getElementById('form-body').classList.remove('active');
+  referTo.parentNode.classList.remove('signup');
+      }
+ else {
+  document.getElementById('form-body').classList.add('active');
+  referTo.parentNode.classList.add('signup');
+}
+}
+      </script>
+</html>

@@ -1,0 +1,67 @@
+.ab{
+    background-color: #24515e;
+    padding:20px;
+}
+  #more {display: none;}
+  
+  .modal {
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 768px) { 
+    .modal:before {
+      display: inline-block;
+      vertical-align: middle;
+      content: " ";
+      height: 100%;
+    }
+  }
+  
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+ .form{
+     position: absolute;
+     top: 50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+     width:780px;
+     height:370px;
+     font-size: 25px;
+     background-color: snow;
+ }
+ .form head{
+width:100%;
+height: 55px;
+display: flex;
+ }
+ .form .head >div{
+     width:50%;
+    height:100%;
+     text-align: center;
+     line-height: 55px;
+     cursor:pointer;
+     background: transparent;
+ }
+ .form .head .signup >div:nth-child(1),.form .head >div:nth-child(2){
+     background-color: grey;
+     transition: all .1s ease-in-out;
+ }
+ .form .head .signup >div:nth-child(2){
+     background-color: transparent !important;
+     transition: all .1s ease-in-out;
+ }
+ .form .body > div.login {
+    left:0%;
+  }
+  .form .body > div.signup {
+    left:100%;
+  }
+  .form .body.active > div.login {
+    left:-100%;
+  }
+  .form .body.active > div.signup {
+    left:0%;
+  }
